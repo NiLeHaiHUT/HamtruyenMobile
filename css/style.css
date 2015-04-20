@@ -1,0 +1,335 @@
+/*
+Region cover picture
+*/
+#cover {
+    margin-top:  -20px;
+    padding-top: 0px;
+}
+
+.card {
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.item>img {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Region avatar picture*/
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 20%;
+    height: 20%;
+    max-width: 20%;
+    max-height: 20%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+    background-color: white;
+}
+
+/*Region Search form*/
+.custom-search-form{
+    margin:5px 0px;
+}
+
+/*Region Social Network button*/
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.bottom .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+
+/*Region List Manga and Newest Chapter*/
+a.manga-link, a.chap-link, .reading-pagination li.reading-chapter {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a.chap-link {
+    margin-right: 0px;
+}
+
+/*Region List Header*/
+#update .list-header {
+    background: #f80c54;
+}
+
+#update>ul, #hot>ul, #new>ul {
+  border-radius: 0px;
+}
+
+#hot .list-header {
+    background: #efc83f;
+}
+
+#new .list-header {
+    background: #0bb1a7;
+}
+
+.list-header>div
+{
+    color: white;
+    font: bold 18px Helvetica;    
+}
+
+/*Region Manga Detail*/
+#manga-detail .manga-name {
+    font: bold 18px Tahoma;
+}
+
+#manga-detail .manga-info {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#manga-detail .manga-info>span.manga-follow-number {
+    color: #ff9900;
+}
+#manga-detail .manga-info>div.manga-description {
+    color: #ff9900;
+}
+
+/*Region Manga List and view Chap*/
+#list-chap {
+    border: 1px solid gray;
+}
+
+.chapter-list-header {
+    background: #103E4B;
+    color: white;
+    font: bold 18px Tahoma;
+}
+
+.chapter-list-label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.chapter-name-label {
+    padding-left: 30px;
+}
+
+.chapter-view-label {
+    padding-right: 30px;
+    text-align: right;
+}
+
+/*Region Pagination on reading page*/
+.reading-pagination li.reading-chapter {
+    width: 200px;
+    margin-bottom: -5px;
+}
+
+div#select-chapter {
+    padding-bottom: 30px;
+}
+
+/*Region Content Chap*/
+#content-chap img {
+    margin: 0 auto;
+}
+
+/*Region Comment box on reading page*/
+.detailBox {
+    border:1px solid #bbb;
+}
+
+.titleBox {
+    padding:10px;
+    background-color: #15414d;
+}
+
+.titleBox label{
+    color: white;
+    font: bold 18px Helvetica;
+    margin:0;
+    display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox>span:first-child {
+    color:red;
+}
+
+.taskDescription {
+    margin-top:10px 0;
+}
+
+.actionBox .form-group * {
+    width:100%;
+}
+
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-user-exp {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  min-height: 415px;
+}
+
+/*Search result*/
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+#search-results>hgroup { 
+  padding-left: 15px; 
+  border-bottom: 1px solid #ccc; 
+}
+
+#search-results>hgroup h1 { 
+  font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; 
+  margin-top: 0; 
+  line-height: 1.15; 
+  background: green;
+}
+
+#search-results>hgroup h2.lead { 
+  font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; 
+  color: #2a9fd6; 
+  margin: 0; 
+  padding-bottom: 10px; 
+}
