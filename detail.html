@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Truyện HOT mỗi ngày</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="https://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Site CSS -->
+		<link href="./css/style.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--OUTSITE CODE-->
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=682780141772747";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>	
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--OUTSITE CODE END-->
+
+		<!--TOP Navitation Bar-->
+		<div class="navbar navbar-default">
+		    <div class="container">
+		        <div class="navbar-header">
+		            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="index.html">
+		            	<span class="glyphicon glyphicon-home"></span>
+		            	Truyện HOT mỗi ngày
+		            </a>
+		        </div>
+		        <center>
+		            <div class="navbar-collapse collapse" id="navbar-main">
+		                <form class="navbar-form navbar-right" role="search">
+		                    <div class="form-group">
+		                        <input type="text" class="form-control" name="username" placeholder="Username" />
+		                    </div>
+		                    <div class="form-group">
+		                        <input type="text" class="form-control" name="password" placeholder="Password" />
+		                    </div>
+		                    <button type="submit" class="btn btn-primary">Sign In</button>
+		                </form>
+		            </div>
+		        </center>
+		    </div>
+		</div>
+		<!--TOP Navitation Bar END-->
+
+		<!--Search field-->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		            <div class="input-group custom-search-form">
+		              <input type="text" class="form-control" placeholder="Tìm kiếm truyện..." />
+		              <span class="input-group-btn">
+		              <button class="btn btn-default" type="button">
+		              <span class="glyphicon glyphicon-search"></span>
+		             </button>
+		             </span>
+		             </div><!-- /input-group -->
+		        </div>
+			</div>
+		</div>
+		<!--Search field END-->
+
+		<!--Manga Detail field-->
+		<div class="container" id="manga-detail">
+		    <div class="row">
+	            <img class="col-xs-6 col-sm-6 col-md-6"src="./images/detail.jpg" alt="" class="img-rounded" />
+
+		        <div class="col-xs-6 col-sm-6 col-md-6">
+		        	<h1 class="manga-name">
+		        		<a href="#">Thời đại X Long</a>
+		        	</h1>
+	        	    
+	        	    <div class="row manga-info">
+			        	<i class="glyphicon glyphicon-user"></i><span> Tác giả: </span>
+			        	<a href="#">Đang cập nhật</a>
+	        	    </div>
+	        	    
+	        	    <div class="row manga-info">
+			        	<i class="glyphicon glyphicon-briefcase"></i><span> Nhóm dịch: </span>
+			        	<a href="#">Tổng hợp nhiều nguồn</a>
+	        	    </div>
+	        	    
+	        	    <div class="row manga-info">
+			        	<i class="glyphicon glyphicon-flag"></i><span> Trạng thái: </span>
+			        	<a href="#">Đang tiến hành</a>
+	        	    </div>
+	        	    
+	        	    <div class="row manga-info">
+			        	<i class="glyphicon glyphicon-tags"></i>
+			        	<span> Thể loại: </span>
+			        	<a href="#" class="label label-primary manga-type">Manhua</a>
+			        	<a href="#" class="label label-primary manga-type">Huyền huyễn</a>
+			        	<a href="#" class="label label-primary manga-type">Fantasy</a>
+			        	<a href="#" class="label label-primary manga-type">Action</a>
+			        	<a href="#" class="label label-primary manga-type">Comedy</a>
+			        	<a href="#" class="label label-primary manga-type">Ecchi</a>
+			        	<a href="#" class="label label-primary manga-type">Harem</a>
+			        	<a href="#" class="label label-primary manga-type">Martial Art</a>
+	        	    </div>
+	        	    
+	        	    <div class="row manga-info">
+			        	<i class="glyphicon glyphicon-pushpin"></i>
+			        	<span> Theo dõi: </span>
+			        	<span class="manga-follow-number">688 người</span>
+			        	<span> đã theo dõi truyện này</span>
+	        	    </div>
+
+					<div class="row manga-info">
+			        	<i class="glyphicon glyphicon-bullhorn"></i>
+			        	<span> Chia sẻ Facebook: </span>
+	        	    </div>
+
+	        	    <div class="manga-info">
+                        <div class="manga-description">Nội dung</div>
+                        <div class="">
+                            Có lẽ là ... Anh main của chúng ta đã quay về quá khứ nhờ việc . . . ngã cầu thang :v. Trở về quá khứ với võ công không có, a đã chết 1 cách lãng nhách. Nhưng vì sai kịch bản nên a được cho thêm 1 cơ hội để làm lại cuộc đời. Sau đó đọc truyện thì biết :))
+                        </div>
+                    </div>
+		        </div>
+		    </div>
+		</div>
+		<!--Manga Detail field END-->
+
+		<!--ADS 1-->
+		<div class="container" id="ads-1">
+			<object class="col-xs-12 col-sm-12 col-md-12" wmode="opaque" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="100">
+	        	<param name="movie" value="http://hamtruyen.com/bannerqc/dx1024x100.swf">
+	        	<param name="quality" value="high">
+            	<param name="wmode" value="transparent">
+             	<embed wmode="opaque" src="http://hamtruyen.com/bannerqc/dx1024x100.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="100">
+	        </object>
+		</div>
+		<!--ADS 1 END-->
+
+		<!--Chapter List-->
+		<div id="list-chap" class="container">
+			<!--Chapter List label-->
+			<div class="panel-heading row chapter-list-header">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<span class="glyphicon glyphicon-bookmark"></span>
+					DANH SÁCH CHƯƠNG TRUYỆN
+				</div>
+			</div>
+
+			<div class="row chapter-list-label">
+				<div class="col-xs-8 col-sm-8 col-md-8 chapter-name-label">
+					Tên Chương
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 chapter-view-label">
+					Lượt xem
+				</div>
+			</div>
+
+			<!--Chapter List label END-->
+			<div class="row list-group">
+				<a href="reading.html" class="list-group-item chap-link">	
+					ChapterChapterChapterChapterChapterChapterChapterChapterChapterChapterChapterChapterChapterChapter 1
+					<span class="badge">5123</span>
+				</a>		
+				<a href="reading.html" class="list-group-item">
+					Chapter 1
+					<span class="badge">3123</span>
+				</a>
+				<a href="reading.html" class="list-group-item">
+					Chapter 1
+					<span class="badge">543535</span>
+				</a>
+				<a href="reading.html" class="list-group-item">
+					Chapter 1
+					<span class="badge">6546455</span>
+				</a>
+				<a href="reading.html" class="list-group-item">
+					Chapter 1
+					<span class="badge">857566</span>
+				</a>
+				<a href="reading.html" class="list-group-item">
+					Chapter 1
+					<span class="badge">414125</span>
+				</a>
+			</div>
+
+		</div>
+		<!--Chapter List END-->
+
+		<!--FOOTER-->
+		<div class="navbar navbar-default">
+		    <div class="container">
+		      <p class="navbar-text pull-left">
+		      		© 2015 - Site Designed by Mr.Ni Le,
+		        	<a href="http://hamtruyen.com" target="_blank">Hamtruyen.com</a>
+		        	team
+		      </p>
+		      
+		      <a href="https://plus.google.com/+Hamtruyen/posts" class="navbar-btn btn-danger btn pull-right">
+		      <span class="glyphicon glyphicon-star"></span>  Theo dõi trên Google+</a>
+		    </div>
+		</div>
+		<!--FOOTER END-->
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Truyện HOT mỗi ngày</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="https://bootswatch.com/cyborg/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Site CSS -->
+		<link href="./css/style.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--OUTSITE CODE-->
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=682780141772747";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>	
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--OUTSITE CODE END-->
+
+		<!--TOP Navitation Bar-->
+		<div class="navbar navbar-default">
+		    <div class="container">
+		        <div class="navbar-header">
+		            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="index.html">
+		            	<span class="glyphicon glyphicon-home"></span>
+		            	Truyện HOT mỗi ngày
+		            </a>
+		        </div>
+		        <center>
+		            <div class="navbar-collapse collapse" id="navbar-main">
+		                <form class="navbar-form navbar-right" role="search">
+		                    <div class="form-group">
+		                        <input type="text" class="form-control" name="username" placeholder="Username" />
+		                    </div>
+		                    <div class="form-group">
+		                        <input type="text" class="form-control" name="password" placeholder="Password" />
+		                    </div>
+		                    <button type="submit" class="btn btn-primary">Sign In</button>
+		                </form>
+		            </div>
+		        </center>
+		    </div>
+		</div>
+		<!--TOP Navitation Bar END-->
+
+		<div class="container">
+		    <div class="row profile">
+				<div class="col-md-3">
+					<div class="profile-sidebar">
+						<!-- SIDEBAR USERPIC -->
+						<div class="profile-userpic">
+							<img src="./images/user-avatar.jpg" class="img-responsive" alt="">
+						</div>
+						<!-- END SIDEBAR USERPIC -->
+						<!-- SIDEBAR USER TITLE -->
+						<div class="profile-usertitle">
+							<div class="profile-usertitle-name">
+								Lê Hải Ni
+							</div>
+							<div class="profile-usertitle-job">
+								Trùm cuối
+							</div>
+						</div>
+						<!-- END SIDEBAR USER TITLE -->
+						<!-- SIDEBAR USER EXP -->
+						<div class="progress profile-user-exp">
+						  	<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						    	60%
+						  	</div>
+						</div>
+						<!-- SIDEBAR USER EXP END-->
+
+						<!-- SIDEBAR MENU -->
+						<div class="profile-usermenu">
+							<ul class="nav">
+								<li class="active">
+									<a href="#">
+										<i class="glyphicon glyphicon-home"></i>
+										Overview 
+									</a>
+								</li>
+								<li>
+									<a href="userchangepassword.html">
+										<i class="glyphicon glyphicon-user"></i>
+										Account Settings 
+									</a>
+								</li>
+								<li>
+									<a href="userwatchinglist.html" target="_blank">
+										<i class="glyphicon glyphicon-envelope"></i>
+										Truyện theo dõi
+									</a>
+								</li>
+								<li>
+									<a href="userhelp.html">
+										<i class="glyphicon glyphicon-flag"></i>
+										Help 
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- END MENU -->
+					</div>
+				</div>
+				<div class="col-md-9">
+		            <div class="profile-content">
+					    <div class="panel panel-primary">
+		                    <div class="panel-heading">
+		                        <h3 class="panel-title">Thông tin cá nhân</h3>
+		                    </div>
+		                    <div class="panel-body">
+		                        <div class="row">
+		                            <div class="">
+		                                <table class="table table-user-information">
+		                                    <tbody>
+		                                    	<tr>
+			                                        <td>Danh hiệu</td>
+			                                        <td><input type="text" name="" id="input" class="form-control" value="Trùm cuối" required="required" pattern="" title=""></td>
+			                                    </tr>
+			                                    <tr>
+			                                        <td>Ngày sinh</td>
+			                                        <td><input type="date" name="" id="input" class="form-control" value="01/02/1992" required="required" title=""></td>
+			                                    </tr>
+			                                    <tr>
+			                                        <td>Cấp độ</td>
+			                                        <td>Nhị đoạn đấu khí</td>
+			                                    </tr>
+			                                    
+			                                    <tr>
+			                                        <td>Số bài đã post</td>
+			                                        <td>15</td>
+			                                    </tr>
+			                                    <tr>
+			                                        <td>Nhóm dịch</td>
+			                                        <td>Chưa có</td>
+			                                    </tr>
+		                                    </tbody>
+		                                </table>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="panel-footer">
+		                        <button class="btn btn-sm btn-primary" type="button"
+		                                data-toggle="tooltip"
+		                                data-original-title="Send message to user"><i class="glyphicon glyphicon-envelope"></i></button>
+		                        <span class="pull-right">
+		                            <button class="btn btn-sm btn-warning" type="button"
+		                                    data-toggle="tooltip"
+		                                    data-original-title="Edit this user"><i class="glyphicon glyphicon-edit"></i></button>
+		                            <button class="btn btn-sm btn-danger" type="button"
+		                                    data-toggle="tooltip"
+		                                    data-original-title="Remove this user"><i class="glyphicon glyphicon-remove"></i></button>
+		                        </span>
+		                    </div>
+	                	</div>
+		            </div>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div class="navbar navbar-default">
+		    <div class="container">
+		      <p class="navbar-text pull-left">
+		      		© 2015 - Site Designed by Mr.Ni Le,
+		        	<a href="http://hamtruyen.com" target="_blank">Hamtruyen.com</a>
+		        	team
+		      </p>
+		      
+		      <a href="https://plus.google.com/+Hamtruyen/posts" class="navbar-btn btn-danger btn pull-right">
+		      <span class="glyphicon glyphicon-star"></span>  Theo dõi trên Google+</a>
+		    </div>
+		</div>
+		<!--FOOTER END-->
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
+</html>
